@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\i01007600619\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   '--userconfig=C:\\Users\\i01007600619\\.cnpmrc',
+1 verbose cli   '--disturl=https://npm.taobao.org/mirrors/node',
+1 verbose cli   '--registry=http://cnpmjs.cathay-inc.com:7001/',
+1 verbose cli   'run',
+1 verbose cli   'static' ]
+2 info using npm@3.10.10
+3 info using node@v8.1.2
+4 verbose run-script [ 'prestatic', 'static', 'poststatic' ]
+5 info lifecycle webpack@1.0.0~prestatic: webpack@1.0.0
+6 silly lifecycle webpack@1.0.0~prestatic: no script for prestatic, continuing
+7 info lifecycle webpack@1.0.0~static: webpack@1.0.0
+8 verbose lifecycle webpack@1.0.0~static: unsafe-perm in lifecycle true
+9 verbose lifecycle webpack@1.0.0~static: PATH: C:\Users\i01007600619\AppData\Roaming\npm\node_modules\cnpm\node_modules\npm\bin\node-gyp-bin;D:\webpack\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Git\bin;C:\Program Files\apache-maven-3.2.5\bin;D:\Microsoft VS Code\bin;C:\Users\i01007600619\AppData\Roaming\npm
+10 verbose lifecycle webpack@1.0.0~static: CWD: D:\webpack
+11 silly lifecycle webpack@1.0.0~static: Args: [ '/d /s /c', 'node server/server-static.js' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1016:11)
+12 verbose stack     at process.kill (internal/process.js:181:13)
+12 verbose stack     at process.listener (C:\Users\i01007600619\AppData\Roaming\npm\node_modules\cnpm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:110:20)
+12 verbose stack     at process.emit (events.js:207:7)
+12 verbose stack     at processEmit (C:\Users\i01007600619\AppData\Roaming\npm\node_modules\cnpm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (C:\Users\i01007600619\AppData\Roaming\npm\node_modules\cnpm\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:207:44)
+13 verbose cwd D:\webpack
+14 error Windows_NT 6.1.7601
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\i01007600619\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\npm\\bin\\npm-cli.js" "--userconfig=C:\\Users\\i01007600619\\.cnpmrc" "--disturl=https://npm.taobao.org/mirrors/node" "--registry=http://cnpmjs.cathay-inc.com:7001/" "run" "static"
+16 error node v8.1.2
+17 error npm  v3.10.10
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
